@@ -13,7 +13,7 @@ Disclaimer: this project has not been rigorously tested, if you intend to use it
 - Connect to your ATEM Switcher with USB or IP address
 - Up to 8 receivers
 - 200 meters communication range in open field
-- No pairing or Wi-Fi discover/connect needed, the connection can be established immediately after powered thanks to ESP-Now
+- No pairing or Wi-Fi discover/connect procedures needed, the connection can be established immediately after powered thanks to ESP-Now
 
 
 ## Prerequisites
@@ -28,7 +28,7 @@ Disclaimer: this project has not been rigorously tested, if you intend to use it
 
 ## Host program
 
-The host program does nothing but attempt to connect and bridge the transmitter and ATEM switcher.
+The host program does nothing but attempt to connect and bridge the transmitter and ATEM switcher. The transmitter communicates with the computer using the serial port.
 
 ![host program](_images/host.jpg)
 
